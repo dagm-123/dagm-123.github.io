@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Reserva tu cita de manicura y pedicura con Esthefany. Servicio premium de uñas acrílicas, soft gel y pedicura spa en un ambiente elegante y relajante.">
+    <meta name="keywords" content="manicure, pedicure, uñas acrilicas, soft gel, manicura, pedicura, spa de uñas, Esthefany nail salon, agendar cita whatsapp">
+    <meta name="author" content="Esthefany Nail Salon">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Esthefany | Nail & Care - Manicure y Pedicure Premium">
+    <meta property="og:description" content="Luce unas manos y pies impecables. Agenda tu cita premium fácilmente por WhatsApp.">
+    <meta property="og:image" content="assets/hero.png">
+
+    <title>Esthefany | Nail & Care - Manicure y Pedicure Premium</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#inicio" class="logo">
+                <span class="logo-text">Esthefany</span>
+                <span class="logo-subtext">Nail & Care</span>
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#inicio" class="nav-link active">Inicio</a>
+                <a href="#servicios" class="nav-link">Servicios</a>
+                <a href="#galeria" class="nav-link">Galería</a>
+                <a href="#nosotros" class="nav-link">Sobre Mí</a>
+                <a href="#testimonios" class="nav-link">Testimonios</a>
+                <a href="#preguntas" class="nav-link">FAQ</a>
+                <a href="#agendar" class="nav-btn-mobile">Reservar Cita</a>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="#agendar" class="nav-btn">Reservar Cita</a>
+                <button class="hamburger" id="hamburger-btn" aria-label="Abrir menú">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="hero-bg" style="background-image: url('assets/hero.png');"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <span class="hero-tag">Manicure & Pedicure Premium</span>
+            <h1>Tus manos y pies merecen brillar</h1>
+            <p>Disfruta de una experiencia de belleza exclusiva con atención personalizada de la mano de Esthefany. Diseños únicos y cuidado profesional.</p>
+            <div class="hero-buttons">
+                <a href="#agendar" class="btn btn-primary">Agendar Cita en WhatsApp</a>
+                <a href="#servicios" class="btn btn-outline">Ver Servicios</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i data-lucide="chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Brand Values -->
+    <section class="values">
+        <div class="container">
+            <div class="values-grid">
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i data-lucide="sparkles"></i>
+                    </div>
+                    <h3>Atención Exclusiva</h3>
+                    <p>Cada servicio se personaliza según tus gustos, estilo y necesidades específicas.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i data-lucide="shield-check"></i>
+                    </div>
+                    <h3>Máxima Higiene</h3>
+                    <p>Herramientas 100% esterilizadas y protocolos estrictos para tu total seguridad.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i data-lucide="heart"></i>
+                    </div>
+                    <h3>Productos Premium</h3>
+                    <p>Uso exclusivo de marcas de alta calidad y libre de crueldad para cuidar tu salud.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i data-lucide="palette"></i>
+                    </div>
+                    <h3>Nail Art Creativo</h3>
+                    <p>Desde diseños clásicos minimalistas hasta las últimas tendencias de arte a mano alzada.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="servicios">
+        <div class="container">
+            <div class="section-header">
+                <span class="subtitle">Nuestras Especialidades</span>
+                <h2>Servicios Premium</h2>
+                <div class="divider"></div>
+                <p>Descubre el menú de servicios diseñados para consentir tus manos y pies con resultados espectaculares y duraderos.</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card" data-service="Manicura Semipermanente">
+                    <div class="service-img-wrapper">
+                        <img src="assets/manicure.png" alt="Manicura Semipermanente" class="service-img">
+                        <span class="service-price">$25</span>
+                    </div>
+                    <div class="service-info">
+                        <h3>Manicura Semipermanente</h3>
+                        <p>Esmaltado de alta durabilidad con secado en lámpara LED. Incluye limpieza profunda de cutículas, limado y exfoliación con crema hidratante. Duración: 2-3 semanas.</p>
+                        <ul class="service-features">
+                            <li><i data-lucide="check"></i> Limpieza profunda de cutículas</li>
+                            <li><i data-lucide="check"></i> Brillo de larga duración</li>
+                            <li><i data-lucide="check"></i> Más de 100 tonos a elegir</li>
+                        </ul>
+                        <button class="btn-card-booking" onclick="selectServiceAndScroll('Manicura Semipermanente')">Reservar Servicio</button>
+                    </div>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card" data-service="Uñas Soft Gel">
+                    <div class="service-img-wrapper">
+                        <img src="assets/softgel.png" alt="Uñas Soft Gel" class="service-img">
+                        <span class="service-price">$40</span>
+                    </div>
+                    <div class="service-info">
+                        <h3>Uñas Soft Gel</h3>
+                        <p>Extensiones ultra ligeras y flexibles que se adhieren directamente a tu uña natural con una base de gel protectora. Menor daño, máxima ligereza y aspecto natural.</p>
+                        <ul class="service-features">
+                            <li><i data-lucide="check"></i> Flexibilidad y comodidad</li>
+                            <li><i data-lucide="check"></i> Aspecto muy natural y delgado</li>
+                            <li><i data-lucide="check"></i> Remoción segura sin torno agresivo</li>
+                        </ul>
+                        <button class="btn-card-booking" onclick="selectServiceAndScroll('Uñas Soft Gel')">Reservar Servicio</button>
+                    </div>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card" data-service="Uñas Acrílicas">
+                    <div class="service-img-wrapper">
+                        <img src="assets/acrylic.png" alt="Uñas Acrílicas" class="service-img">
+                        <span class="service-price">$50</span>
+                    </div>
+                    <div class="service-info">
+                        <h3>Uñas Acrílicas</h3>
+                        <p>Estructuras fuertes y esculpidas a medida. Ideales si deseas mayor longitud, resistencia y diseños tridimensionales o técnicas complejas de decoración.</p>
+                        <ul class="service-features">
+                            <li><i data-lucide="check"></i> Alta resistencia y durabilidad</li>
+                            <li><i data-lucide="check"></i> Alargamiento a medida (tips/moldes)</li>
+                            <li><i data-lucide="check"></i> Ideal para Nail Art elaborado</li>
+                        </ul>
+                        <button class="btn-card-booking" onclick="selectServiceAndScroll('Uñas Acrílicas')">Reservar Servicio</button>
+                    </div>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="service-card" data-service="Pedicura Spa Premium">
+                    <div class="service-img-wrapper">
+                        <img src="assets/pedicure.png" alt="Pedicura Spa" class="service-img">
+                        <span class="service-price">$35</span>
+                    </div>
+                    <div class="service-info">
+                        <h3>Pedicura Spa Premium</h3>
+                        <p>Tratamiento rejuvenecedor para pies cansados. Incluye baño relajante con sales minerales, exfoliación orgánica, remoción de asperezas, masaje relajante y esmaltado a elección.</p>
+                        <ul class="service-features">
+                            <li><i data-lucide="check"></i> Tina de hidromasaje relajante</li>
+                            <li><i data-lucide="check"></i> Exfoliación profunda con sales</li>
+                            <li><i data-lucide="check"></i> Masaje hidratante relajante</li>
+                        </ul>
+                        <button class="btn-card-booking" onclick="selectServiceAndScroll('Pedicura Spa Premium')">Reservar Servicio</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="galeria">
+        <div class="container">
+            <div class="section-header">
+                <span class="subtitle">Portafolio</span>
+                <h2>Galería de Diseños</h2>
+                <div class="divider"></div>
+                <p>Inspírate con algunos de nuestros trabajos de manicura, pedicura y nail art creativo realizados a mano alzada.</p>
+            </div>
+
+            <!-- Filter Buttons -->
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="manicura">Manicura</button>
+                <button class="filter-btn" data-filter="pedicura">Pedicura</button>
+                <button class="filter-btn" data-filter="nailart">Nail Art</button>
+            </div>
+
+            <!-- Gallery Grid -->
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="manicura">
+                    <img src="assets/manicure.png" alt="Diseño de Uñas Semipermanente Rosa" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <i data-lucide="zoom-in"></i>
+                        <span>Semipermanente Rosa Pastel</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="nailart">
+                    <img src="assets/softgel.png" alt="Diseño de Uñas Soft Gel con Hojas de Oro" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <i data-lucide="zoom-in"></i>
+                        <span>Soft Gel con Hojas de Oro</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="nailart">
+                    <img src="assets/acrylic.png" alt="Uñas Acrílicas Estilo Francés Moderno" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <i data-lucide="zoom-in"></i>
+                        <span>Acrílico Francés con Mármol</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="pedicura">
+                    <img src="assets/pedicure.png" alt="Pedicura Spa Relajante" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <i data-lucide="zoom-in"></i>
+                        <span>Pedicura Spa Rejuvenecedora</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal for Gallery -->
+    <div class="lightbox" id="lightbox">
+        <span class="lightbox-close" id="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img" src="" alt="">
+        <div id="lightbox-caption"></div>
+    </div>
+
+    <!-- About Esthefany Section -->
+    <section class="about" id="nosotros">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-images">
+                    <div class="about-img-main">
+                        <img src="assets/hero.png" alt="Esthefany Nails Studio">
+                    </div>
+                    <div class="about-experience">
+                        <span class="exp-number">5+</span>
+                        <span class="exp-text">Años de<br>Experiencia</span>
+                    </div>
+                </div>
+                <div class="about-info">
+                    <span class="subtitle">Detrás de las Pinceladas</span>
+                    <h2>Conoce a Esthefany</h2>
+                    <div class="divider-left"></div>
+                    <p>¡Hola! Soy <strong>Esthefany</strong>, especialista en belleza de manos y pies con una gran pasión por el cuidado de las uñas y el Nail Art de alta precisión. Mi objetivo no es solo embellecer tus uñas, sino también brindar un espacio de desconexión y relajación donde te sientas consentida.</p>
+                    <p>Creo firmemente que unas manos y pies cuidados dicen mucho de nosotros y elevan nuestra autoestima. Por eso, me capacito constantemente en las últimas tendencias globales, desde el esmaltado de alta duración hasta las estructuras más modernas como el Soft Gel y técnicas de decoraciones tridimensionales.</p>
+                    <div class="about-promises">
+                        <div class="promise-item">
+                            <i data-lucide="check-circle2"></i>
+                            <div>
+                                <h4>Capacitación Certificada</h4>
+                                <p>Técnicas actualizadas para garantizar un acabado perfecto sin dañar tu base natural.</p>
+                            </div>
+                        </div>
+                        <div class="promise-item">
+                            <i data-lucide="check-circle2"></i>
+                            <div>
+                                <h4>Higiene Clínica Estricta</h4>
+                                <p>Uso de autoclave y desinfectantes de grado médico en cada servicio.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonios">
+        <div class="container">
+            <div class="section-header">
+                <span class="subtitle">Opiniones de Clientes</span>
+                <h2>Lo Que Dicen de Nosotros</h2>
+                <div class="divider"></div>
+                <p>Nuestras clientas son nuestra mejor carta de presentación. Lee algunas de sus hermosas experiencias.</p>
+            </div>
+
+            <div class="testimonials-slider">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i data-lucide="star" class="fill"></i>
+                        <i data-lucide="star" class="fill"></i>
+                        <i data-lucide="star" class="fill"></i>
+                        <i data-lucide="star" class="fill"></i>
+                        <i data-lucide="star" class="fill"></i>
+                    </div>
+                    <p class="testimonial-text">"¡El mejor servicio! Las uñas acrílicas me duraron intactas más de 4 semanas. Esthefany es súper detallista, muy profesional y usa productos excelentes."</p>
+                    <div class="testimonial-user">
+                        <div class="user-avatar">CR</div>
+                        <div class="user-info">
+                            <h4>Camila Rodriguez</h4>
+                            <span>Clienta Frecuente</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i data-lucide="star" class="fill"></i>
+                        <i data-lucide="star" class="fill"></i>
+                        <i data-lucide="star" class="fill"></i>
+                        <i data-lucide="star" class="fill"></i>
+                        <i data-lucide="star" class="fill"></i>
+                    </div>
+                    <p class="testimonial-text">"La pedicura spa es una maravilla, el ambiente es súper relajante y limpio. Esthefany se toma su tiempo para consentirte, salí flotando."</p>
+                    <div class="testimonial-user">
+                        <div class="user-avatar">VM</div>
+                        <div class="user-info">
+                            <h4>Valeria Mendoza</h4>
+                            <span>Clienta de Pedicura</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i data-lucide="star" class="fill"></i>
+                        <i data-lucide="star" class="fill"></i>
+                        <i data-lucide="star" class="fill"></i>
+                        <i data-lucide="star" class="fill"></i>
+                        <i data-lucide="star" class="fill"></i>
+                    </div>
+                    <p class="testimonial-text">"Me encanta hacerme el soft gel con Esthefany. Sus diseños de nail art son hermosos y muy prolijos. El formulario de la web para agendar me facilitó todo."</p>
+                    <div class="testimonial-user">
+                        <div class="user-avatar">ST</div>
+                        <div class="user-info">
+                            <h4>Sofía Torres</h4>
+                            <span>Clienta Nail Art</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq" id="preguntas">
+        <div class="container">
+            <div class="section-header">
+                <span class="subtitle">Tus Dudas Resueltas</span>
+                <h2>Preguntas Frecuentes</h2>
+                <div class="divider"></div>
+                <p>Aquí tienes respuesta a las preguntas más habituales sobre los servicios de manicura, pedicura y cuidados posteriores.</p>
+            </div>
+
+            <div class="faq-container">
+                <!-- FAQ 1 -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>¿Cuánto tiempo duran las uñas de Soft Gel?</span>
+                        <i data-lucide="plus" class="faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Las uñas de Soft Gel duran normalmente de 3 a 4 semanas, dependiendo del crecimiento natural de tu uña y del cuidado diario que les des. Se recomienda hacer un mantenimiento o retiro profesional a las 3 semanas para cuidar la salud de tu uña natural.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ 2 -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>¿Cuál es la diferencia entre Acrílico y Soft Gel?</span>
+                        <i data-lucide="plus" class="faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>El acrílico es una estructura más rígida y dura que se forma mezclando polvo y líquido, ideal para alargar de forma extrema o para corregir uñas mordidas. El Soft Gel, por otro lado, son tips preformados hechos de gel que se adhieren con base de gel de construcción flexible, resultando en uñas mucho más ligeras, flexibles y de apariencia súper natural.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ 3 -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>¿Con cuánta anticipación debo agendar mi cita?</span>
+                        <i data-lucide="plus" class="faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Te recomendamos agendar con al menos 2 a 3 días de anticipación para asegurar que encuentres el día y la hora de tu preferencia, en especial si deseas tu cita a fin de semana o por las tardes, que suelen ser los horarios más cotizados.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ 4 -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>¿Qué tipo de esmaltado incluye la pedicura?</span>
+                        <i data-lucide="plus" class="faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Nuestra Pedicura Spa Premium incluye por defecto un esmaltado semipermanente de larga duración para que salgas del salón con las uñas completamente secas y sin riesgo de dañarlas al colocarte el calzado cerrado.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ 5 -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>¿Cómo debo cuidar mis uñas después de mi servicio?</span>
+                        <i data-lucide="plus" class="faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Para prolongar la vida de tus uñas, evita usarlas como herramientas para abrir latas, usa guantes si vas a lavar platos o limpiar con químicos fuertes, y mantén tus cutículas hidratadas con aceite de cutícula a diario.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section class="booking" id="agendar">
+        <div class="container">
+            <div class="booking-wrapper">
+                <div class="booking-content">
+                    <span class="subtitle">Reserva Tu Cita</span>
+                    <h2>Agendar cita por WhatsApp</h2>
+                    <div class="divider-left"></div>
+                    <p>Completa el formulario con tus datos y la fecha ideal para tu cita. Al hacer clic en "Confirmar cita por WhatsApp", el sistema te redirigirá a WhatsApp con un mensaje pre-armado y estructurado con todos tus datos para que Esthefany te confirme la disponibilidad de inmediato.</p>
+                    
+                    <div class="contact-info-list">
+                        <div class="contact-item">
+                            <i data-lucide="map-pin"></i>
+                            <div>
+                                <h5>Ubicación del Salón</h5>
+                                <p>Av. Elegante 123, Barrio El Prado (Frente a Plaza Principal)</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i data-lucide="clock"></i>
+                            <div>
+                                <h5>Horarios de Atención</h5>
+                                <p>Lunes a Sábado: 9:00 AM - 7:00 PM</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i data-lucide="phone"></i>
+                            <div>
+                                <h5>Contacto Directo</h5>
+                                <p>+58 416 9709408 (Reservas y Consultas)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="booking-form-container">
+                    <h3>Formulario de Reserva</h3>
+                    <form id="whatsapp-booking-form">
+                        <div class="form-group">
+                            <label for="client-name">Nombre Completo</label>
+                            <input type="text" id="client-name" name="name" placeholder="Ej. Ana García" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="service-select">Servicio Deseado</label>
+                            <select id="service-select" name="service" required>
+                                <option value="" disabled selected>Selecciona un servicio</option>
+                                <option value="Manicura Semipermanente">Manicura Semipermanente ($25)</option>
+                                <option value="Uñas Soft Gel">Uñas Soft Gel ($40)</option>
+                                <option value="Uñas Acrílicas">Uñas Acrílicas ($50)</option>
+                                <option value="Pedicura Spa Premium">Pedicura Spa Premium ($35)</option>
+                                <option value="Combo: Manicura + Pedicura">Combo: Manicura + Pedicura ($55)</option>
+                            </select>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="booking-date">Fecha Deseada</label>
+                                <input type="date" id="booking-date" name="date" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="booking-time">Hora Preferida</label>
+                                <input type="time" id="booking-time" name="time" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="booking-notes">Detalles adicionales (opcional)</label>
+                            <textarea id="booking-notes" name="notes" rows="3" placeholder="Ej. Deseo un diseño floral, o retirarme un set de uñas previo..."></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">
+                            <i data-lucide="send"></i>
+                            <span>Confirmar Cita por WhatsApp</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#inicio" class="logo-footer">
+                        <span class="logo-text">Esthefany</span>
+                        <span class="logo-subtext">Nail & Care</span>
+                    </a>
+                    <p>Especialistas en embellecer tus manos y pies, brindando un servicio de alta gama, higiénico y personalizado.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#galeria">Galería</a></li>
+                        <li><a href="#nosotros">Sobre Mí</a></li>
+                    </ul>
+                </div>
+                <div class="footer-socials">
+                    <h4>Sígueme en Redes</h4>
+                    <p>Mira mis últimos trabajos diarios en mis redes sociales:</p>
+                    <div class="social-icons">
+                        <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+                        <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i data-lucide="facebook"></i></a>
+                        <a href="https://whatsapp.com" target="_blank" aria-label="WhatsApp"><i data-lucide="whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Esthefany Nail & Care. Todos los derechos reservados. Diseñado para brillar.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- App Script -->
+    <script src="app.js"></script>
+</body>
+</html>
